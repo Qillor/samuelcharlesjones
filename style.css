@@ -1,176 +1,152 @@
-/* A Free Design by Bryant Smith (bryantsmith.com) */
-
-html, body {
-text-align: center;
-}
-p {text-align: left;}
-
 body {
-	margin: 0;
-	padding: 0;
-	background: #697281;
-	font-family:  Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	color: #F1F5F8;
-  background: #26476E url(background.png) repeat-x;
-}
-*
-{
-  margin: 0 auto 0 auto;
- text-align:left;}
-
-#page
-{
-  margin: 0 auto 0 auto; 
-  display: block; 
-  height:auto;
-  position: relative; 
-  overflow: hidden; 
-  width: 753px;
+    color: #111;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
-#header
-{
-margin-top:25px;
-padding-top:63px;
-padding-left:30px;
-padding-right:30px;
-background-image:url(header.png);
-background-repeat:no-repeat;
-height:122px;
-width:753px;
-overflow:hidden;
+.center-block{
+    text-align: center;
 }
 
-#header h1, #header h2
-{
-margin-left:0px;
-width:693px;
-position:relative;
-color:#000000;
-text-align:center;
-font-size:15px;
-font-weight:bold;
-font-family:Arial, Helvetica, sans-serif;
-clear:both;
+#logo{
+    height: 50px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:40px;
+    margin-right:40px;
+    transition: transform .2s;
+    
 }
 
-#header h1
-{
-margin-left:0px;
-width:693px;
-position:relative;
-color:#26476E;
-font-size:30px;
+#logo:hover{
+  transform: scale(1.5);
+}
+.navbar-default {
+    background-color: #000;
+    border-color: #000;
 }
 
-
-
-#bar
-{
-background-image:url(bar.png);
-background-repeat:no-repeat;
-height:53px;
-width:750px;
-padding-bottom:15px;
-text-align:center;
-margin:0 auto 0 auto;
+.navbar-right{
+    margin-right:70px;
+    float:left;
+    
 }
 
-#bar ul {
-	margin: 0px auto 0px auto;
-	padding: 0px;
-	list-style-type: none;
-	height: 74px;
-	text-align:center;
-}
-#bar ul li , #bar ul li a, #bar ul li a:visited{
-	margin: 0px;
-	padding: 0px;
-	height: 30px;
-	overflow: hidden;
-	display: inline;
-	text-align:center;
-	line-height:65px;
-	color:#26476E;
-	padding-left:6px;
-	padding-right:6px;
+.navbar-default .navbar-nav > li > a {
+    color: #f8f8f8;
+    padding-top:25px; 
+    padding-bottom:25px;
+    padding-left: 10px;
+    padding-right:10px;
 }
 
-#bar ul li a:hover
-{
-color:#000000;
-text-decoration:underline;
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #657786;
+    
+}
+#top{
+    padding-top:71px;
+}
+hr{ border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+
+#licensing{
+    padding-top:70px;
+}
+
+.star{
+    padding-top:40px;
+}
+
+#player{
+    padding-top:40px;
+}
+#contact{
+    padding-top:70px;
+}
+#cont{
+    padding-top:40px;
+}
+#twitter{
+    color:#1da1f2;
+    }
+#twitter:hover{
+    color:#657786;
+    }
+#instagram{
+    color:#111;
+    margin-left:20px;
+    margin-right:20px;
+}
+#instagram:hover{
+    color:#657786;
+}
+#facebook{
+    color:#3b5998;
+}
+#facebook:hover{
+    color:#657786;
+}
+#soundcloud{
+        color:#ff8800;
+  margin-left:20px;
+    margin-right:20px;
+}
+#soundcloud:hover{
+    color:#657786;
+}
+#youtube{
+    color:#cd201f;
+}
+#youtube:hover{
+    color:#657786;
+}
+
+#mail{
+    color:#111;
+}
+#mail:hover{
+    color:#657786;
+}
+
+.footer{
+    padding-top:50px;
+}
+
+.btn-custom { background-color: hsl(0, 0%, -21%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#353535", endColorstr="#-35-35-35"); background-image: -khtml-gradient(linear, left top, left bottom, from(#353535), to(#-35-35-35)); background-image: -moz-linear-gradient(top, #353535, #-35-35-35); background-image: -ms-linear-gradient(top, #353535, #-35-35-35); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #353535), color-stop(100%, #-35-35-35)); background-image: -webkit-linear-gradient(top, #353535, #-35-35-35); background-image: -o-linear-gradient(top, #353535, #-35-35-35); background-image: linear-gradient(#353535, #-35-35-35); border-color: #-35-35-35 #-35-35-35 hsl(0, 0%, -31.5%); color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.69); -webkit-font-smoothing: antialiased; }
+
+.btn-custom:hover{
+    color:#657786; 
+}
+.lease-info{
+    font-size:11px;
+}
+@media screen and (max-width: 770px) {
+    body{
+    font-size: 10px;
+    }
+    #top{
+    padding-top:140px;
+}
+    #logo{
+    height: 50px;
+    margin:0px;
+    float:left;
+    margin-top:27px;
+    
+}
+    .navbar-right{
+
+    float:right;
+    display: inline-block;
+        margin-right: 20px;
+    
+}
+    .navbar-default .navbar-nav > li > a {
+    margin-left:15px;
+    padding-top:5px; 
+    padding-bottom:5px;
+    padding-left: 1px;
+    padding-right:1px;
+}
 
 }
 
-
-
-
-
-
-
-
-
-.contentTitle
-{
-width:700px;
-height:44px;
-margin-top:20px;
-margin-left:0px;
-margin-right:25px;
-background-image:url(tab_back.png);
-background-repeat:no-repeat;
-
-}
-
-.contentTitle h1
-{
-margin-left:21px;
-padding-top:8px;
-font-size:21px;
-font-weight:bold;
-letter-spacing:-1px;
-color:#FFFFFF;
-}
-
-
-.contentText
-{
-width:680px;
-padding-left:30px;
-padding-right:30px;
-font-size:13px;
-color:#FFFFFF;
-line-height:30px;
-}
-
-a
-{
-text-decoration:none;
-color:#F1F3F8;
-}
-
-a:hover
-{
-border-bottom:1px dotted #F1F3F8;
-}
-
-
-#footer {
-width: 750px;
-height:20px;
-text-align:center;
-font-size:9px;
-color:#223F8D;
-padding-top:20px;
-}
-
-html, body {
-text-align: center;
-}
-p {
-margin:7px;
-text-align: left;
-text-align:justify;
-}
